@@ -86,8 +86,7 @@ s.source       = { :git => "https://github.com/sarsonj/VoiceLevelUnit2.git" }
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "VoiceMeter/Lib", "VoiceMeter/Lib/**/*.{h,m}"
-  s.exclude_files = "VoiceMeter/Classes/Exclude"
+  s.source_files  = "Lib", "Lib/**/*.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
 
