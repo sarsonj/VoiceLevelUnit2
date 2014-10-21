@@ -32,7 +32,7 @@
 
 - (void)recordingUpdateVoiceLevel:(float)level {
     if ([_voiceLevelDelegate respondsToSelector:@selector(updateFromVoiceNotifier:)]) {
-        [_voiceLevelDelegate updateFromVoiceNotifier:level];
+        [_voiceLevelDelegate updateFromVoiceNotifier:level * 32000.0];
     }
 }
 
